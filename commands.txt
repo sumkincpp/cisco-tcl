@@ -1,0 +1,19 @@
+show ver
+
+show proc cpu
+
+show ip route
+show ip int brief
+
+show cdp neighbors
+
+show interface
+show int status
+
+show vlan brief
+
+show vrf
+show ip route vrf <vrf>
+
+show run
+
