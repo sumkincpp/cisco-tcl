@@ -1,9 +1,20 @@
-show ver
+show version
+show logging
+
+show users
+
+show flash:
 
 show proc cpu
 
+# ------------------------------------------------------------------
+show arp
+show route
+
 show ip route
 show ip int brief
+
+show tcp brief all
 
 show cdp neighbors
 
@@ -15,5 +26,10 @@ show vlan brief
 show vrf
 show ip route vrf <vrf>
 
+show conn all 
+show conn all detail
+clear conn
+# ------------------------------------------------------------------
 show run
+show start
 
