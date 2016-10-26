@@ -1,11 +1,17 @@
+terminal length 0
+terminal no monitor
+
 show version
 show logging
 
 show users
-
 show flash:
-
 show proc cpu
+
+show clock
+show diag
+show boot
+show logging
 
 # ------------------------------------------------------------------
 show arp
@@ -13,10 +19,20 @@ show route
 
 show ip route
 show ip int brief
+show ip protocols
+show ip route summary
+show ip ospf interface
+show ip ospf neighbor
+show ip eigrp interface
+show ip eigrp neighbor
+show ip arp
+
+show ip route vrf <vrf>
 
 show tcp brief all
 
-show cdp neighbors
+show cdp neighbor detail
+show cdp neighbor
 
 show interface
 show int status
@@ -24,7 +40,6 @@ show int status
 show vlan brief
 
 show vrf
-show ip route vrf <vrf>
 
 show conn all 
 show conn all detail
