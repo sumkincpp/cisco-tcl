@@ -41,6 +41,8 @@ show vlan brief
 
 show vrf
 
+show port-channel summary
+
 show conn all 
 show conn all detail
 clear conn
